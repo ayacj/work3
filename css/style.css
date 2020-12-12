@@ -1,210 +1,229 @@
-
-body{
-    margin:0;
-    padding:0;
-    background: url("../images/S__4374534.jpg") center center fixed no-repeat;
-    background-size: cover;
-} 
-b{
-    font-weight: bolder;
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../images/S__4374534.jpg") center center fixed no-repeat;
+  background-size: cover;
 }
 
-.container{
-    position: relative;
-    width: 80%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0;
+b {
+  font-weight: bolder;
 }
-.header{
-    margin: auto;
-    width: 80%; 
+
+.container {
+  position: relative;
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
 }
-.header h1{
-    text-align: center;
-    padding: 80px 0 0 0;
-    margin: 0 auto;
-    font-size:70px;
-    font-family:"Arial","Microsoft YaHei","黑體","微軟正黑體","宋體",sans-serif;
+
+.header {
+  margin: auto;
+  width: 80%;
 }
-.header h1 a{
-    color:#fff;
-    text-decoration: none;
-    font-family:"Arial","Microsoft YaHei","黑體","微軟正黑體","宋體",sans-serif;
+
+.header h1 {
+  text-align: center;
+  padding: 80px 0 0 0;
+  margin: 0 auto;
+  font-size: 70px;
+  font-family: "Arial", "Microsoft YaHei", "黑體", "微軟正黑體", "宋體", sans-serif;
 }
-.header p{
-    text-align: center;
-    padding: 10px 0 40px 0;
-    
+
+.header h1 a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Arial", "Microsoft YaHei", "黑體", "微軟正黑體", "宋體", sans-serif;
 }
-.header p a{
-    color:rgba(255, 255, 255, 0.65);
-    text-decoration: none;
-    font-size:15px;
-    font-family:"Arial","Microsoft YaHei","黑體","微軟正黑體","宋體",sans-serif;
+
+.header p {
+  text-align: center;
+  padding: 10px 0 40px 0;
 }
-.banner{
-    text-align: center;
+
+.header p a {
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Arial", "Microsoft YaHei", "黑體", "微軟正黑體", "宋體", sans-serif;
 }
-.banner img{
-    width: 100%;
-    vertical-align: bottom;
+
+.banner {
+  text-align: center;
 }
+
+.banner img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
 .about {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-.about .wrap{
-    background-color: #fff;
-    width: 100%;
-}
-.about h2{
-    text-align: center;
-    font-size:50px;
-    padding: 50px 0 10px 0;
-    font-family:"Arial","Microsoft YaHei","黑體","微軟正黑體","宋體",sans-serif;
-}
-.about .title{
-    padding: 5px 0 50px 0;
-
-}
-.about .title p { 
-    font-size:10px;
-    color:#ccc;
-    letter-spacing: 3.5px; 
-    font-family:"Arial","Microsoft YaHei","黑體","微軟正黑體","宋體",sans-serif;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
-.about .wrap1{
-    background-color: rgb(240, 239, 239);
-    padding: 100px 0;
-    margin: auto;
-    
+.about .wrap {
+  background-color: #fff;
+  width: 100%;
 }
-.about .wrap1 p{
-    width: 80%;
-    color: #aaa;
-    margin: auto;
-    line-height: 150%;
-    /* text-align: justify; */
-    font-size: 110%;
-}
-.content{
-    background-color: rgb(29, 28, 28);
-    margin: auto;
-    width: 100%;
-    padding: 80px 0;
-    
-}
-.content .wrap{
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1000px;
 
+.about h2 {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px 0 10px 0;
+  font-family: "Arial", "Microsoft YaHei", "黑體", "微軟正黑體", "宋體", sans-serif;
 }
+
+.about .title {
+  padding: 5px 0 50px 0;
+}
+
+.about .title p {
+  font-size: 10px;
+  color: #ccc;
+  letter-spacing: 3.5px;
+  font-family: "Arial", "Microsoft YaHei", "黑體", "微軟正黑體", "宋體", sans-serif;
+}
+
+.about .wrap1 {
+  background-color: #f0efef;
+  padding: 100px 0;
+  margin: auto;
+}
+
+.about .wrap1 p {
+  width: 80%;
+  color: #aaa;
+  margin: auto;
+  line-height: 150%;
+  /* text-align: justify; */
+  font-size: 110%;
+}
+
+.content {
+  background-color: #1d1c1c;
+  margin: auto;
+  width: 100%;
+  padding: 80px 0;
+}
+
+.content .wrap {
+  background-color: black;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
 /* .content .wrap .img{
     display: flex;
     flex-wrap: wrap;
-    
+
 } */
 /* .content .wrap .img img{
     max-width:50%;
 
 } */
-.content .wrap >h2{
-    color: #fff;
-    font-size:30px;
-    text-align: center;
-    padding: 50px 0 0 0;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.content .wrap > p{
-    font-size:10px;
-    color:rgba(160, 158, 158, 0.568);
-    letter-spacing: 2px; 
-    padding: 10px 0 50px 0;
-    font-family: 'Source Sans Pro', sans-serif;
+.content .wrap > h2 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding: 50px 0 0 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.main{
-    width: 100%;
+.content .wrap > p {
+  font-size: 10px;
+  color: rgba(160, 158, 158, 0.568);
+  letter-spacing: 2px;
+  padding: 10px 0 50px 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
+
+.main {
+  width: 100%;
+}
+
 /* .main .wrap{
     display: flex;
 } */
-.main .wrap .item1{
-    text-align: center;
-    width: 100%;
-}
-.main .wrap .item2{
-    background-color: #fff; 
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.main .wrap .item3{
-    background-color: rgb(46, 46, 46); 
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.main .wrap .item2 .item2-p{
-    text-align: left;  
-    width: 70%;
-}
-.main .wrap .item3 .item3-p{
-    text-align: right;  
-    width: 70%;
-}
-.main .wrap .item2 .item2-p > h3{
-    font-size:20px;
-    line-height: 60px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.main .wrap .item2 .item2-p > p{
-    font-size:15px;
-    color: #ccc;
-    line-height: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.main .wrap .item3 .item3-p > h3{
-    font-size:20px;
-    line-height: 60px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color:#fff;
-}
-.main .wrap .item3 .item3-p > p{
-    font-size:15px;
-    color: rgba(204, 204, 204, 0.582);
-    line-height: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.main .wrap .item1 img{
-   width: 100%;  
-   vertical-align: bottom;
+.main .wrap .item1 {
+  text-align: center;
+  width: 100%;
 }
 
-
-.footer{
-    color:rgba(255, 255, 255, 0.637);
-    padding: 80px 0 30px 0;
-    text-align: center;
-    font-size:15px;
-    font-family: 'Source Sans Pro', sans-serif;
-    
+.main .wrap .item2 {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer a{
-    color:rgba(255, 255, 255, 0.637);
-
+.main .wrap .item3 {
+  background-color: #2e2e2e;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer a:hover{
-    text-decoration: none;
 
+.main .wrap .item2 .item2-p {
+  text-align: left;
+  width: 70%;
 }
 
+.main .wrap .item3 .item3-p {
+  text-align: right;
+  width: 70%;
+}
+
+.main .wrap .item2 .item2-p > h3 {
+  font-size: 20px;
+  line-height: 60px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.main .wrap .item2 .item2-p > p {
+  font-size: 15px;
+  color: #ccc;
+  line-height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.main .wrap .item3 .item3-p > h3 {
+  font-size: 20px;
+  line-height: 60px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+}
+
+.main .wrap .item3 .item3-p > p {
+  font-size: 15px;
+  color: rgba(204, 204, 204, 0.582);
+  line-height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.main .wrap .item1 img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.footer {
+  color: rgba(255, 255, 255, 0.637);
+  padding: 80px 0 30px 0;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.footer a {
+  color: rgba(255, 255, 255, 0.637);
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
